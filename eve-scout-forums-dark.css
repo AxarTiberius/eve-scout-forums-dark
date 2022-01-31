@@ -37,7 +37,7 @@ body.lights-out .categories>li .card, body.lights-out .category>ul>li .card {
   line-height: 1.2;
 }
 
-body.lights-out @font-face {
+@font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
