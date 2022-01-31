@@ -1,114 +1,110 @@
-@-moz-document domain("forums.eve-scout.com")
+body.lights-out
 {
+  color: #aaa;
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+  background-image: url(https://cdn.discordapp.com/attachments/839318129716101161/937609915848073256/Star_bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+@font-face
+{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+}
 
-  body.lights-out
-  {
-    color: #aaa;
-    font-size: 13px;
-    font-family: 'Lato', sans-serif;
-    background-image: url(https://cdn.discordapp.com/attachments/839318129716101161/937609915848073256/Star_bg.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-color: #000;
-  }
-@  font-face
-  {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Lato'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
-  }
+body.lights-out .navbar-default
+{
+  background: url(https://cdn.discordapp.com/attachments/839318129716101161/937604643373080626/Screenshot_384.png) center no-repeat;
+}
 
-  body.lights-out .navbar-default
-  {
-    background: url(https://cdn.discordapp.com/attachments/839318129716101161/937604643373080626/Screenshot_384.png) center no-repeat;
-  }
+body.lights-out .navbar-default .navbar-brand
+{
+  color: #fff !important;
+}
 
-  body.lights-out .navbar-default .navbar-brand
-  {
-    color: #fff !important;
-  }
+body.lights-out .category li.category-item
+{
+  border-top: none;
+}
 
-  body.lights-out .category li.category-item
-  {
-    border-top: none;
-  }
+body.lights-out .mobile-stat
+{
+  color: #aaa;
+}
 
-  body.lights-out .mobile-stat
-  {
-    color: #aaa;
-  }
+body.lights-out hr
+{
+  border-top: 1px dotted #666;
+}
 
-  body.lights-out hr
-  {
-    border-top: 1px dotted #666;
-  }
+body.lights-out .topic .post-signature
+{
+  border-color: #555;
+}
 
-  body.lights-out .topic .post-signature
-  {
-    border-color: #555;
-  }
+body.lights-out a
+{
+  color: #7cf;
+}
 
-  body.lights-out a
-  {
-    color: #7cf;
-  }
+body.lights-out .breadcrumb .active
+{
+  color: #aaa;
+}
 
-  body.lights-out .breadcrumb .active
-  {
-    color: #aaa;
-  }
+body.lights-out .category>ul>li:not(.unread) h2 a
+{
+  color: #ccc;
+}
 
-  body.lights-out .category>ul>li:not(.unread) h2 a
-  {
-    color: #ccc;
-  }
+body.lights-out .category>ul>li:not(.unread) .card
+{
+  border-color: #444 !important;
+}
 
-  body.lights-out .category>ul>li:not(.unread) .card
-  {
-    border-color: #444 !important;
-  }
+body.lights-out .category .category-item.highlight, body.lights-out .topic .topic-item.highlight
+{
+  background-color: #444;
+}
 
-  body.lights-out .category .category-item.highlight, body.lights-out .topic .topic-item.highlight
-  {
-    background-color: #444;
-  }
+body.lights-out .navbar-default .navbar-brand
+{
+  color: #aaa;
+}
 
-  body.lights-out .navbar-default .navbar-brand
-  {
-    color: #aaa;
-  }
+body.lights-out pre
+{
+  font-size: 80%;
+  line-height: 1.2;
+}
 
-  body.lights-out pre
-  {
-    font-size: 80%;
-    line-height: 1.2;
-  }
+body.lights-out .topic .posts .content pre
+{
+  max-height: inherit;
+  overflow: visible;
+}
 
-  body.lights-out .topic .posts .content pre
-  {
-    max-height: inherit;
-    overflow: visible;
-  }
+body.lights-out .hljs
+{
+  background-color: #777;
+  color: #ccc;
+}
 
-  body.lights-out .hljs
-  {
-    background-color: #777;
-    color: #ccc;
-  }
+body.lights-out .hljs-string, body.lights-out .hljs-title, body.lights-out .hljs-section, body.lights-out .hljs-built_in, body.lights-out .hljs-literal, body.lights-out .hljs-type, body.lights-out .hljs-addition, body.lights-out .hljs-tag, body.lights-out .hljs-quote, body.lights-out .hljs-name, body.lights-out .hljs-selector-id, body.lights-out .hljs-selector-class
+{
+  color: #ccc;
+}
 
-  body.lights-out .hljs-string, body.lights-out .hljs-title, body.lights-out .hljs-section, body.lights-out .hljs-built_in, body.lights-out .hljs-literal, body.lights-out .hljs-type, body.lights-out .hljs-addition, body.lights-out .hljs-tag, body.lights-out .hljs-quote, body.lights-out .hljs-name, body.lights-out .hljs-selector-id, body.lights-out .hljs-selector-class
-  {
-    color: #ccc;
-  }
+body.lights-out .categories .description, body.lights-out .category .description, body.lights-out .subcategory .description
+{
+  color: #ccc;
+}
 
-  body.lights-out .categories .description, body.lights-out .category .description, body.lights-out .subcategory .description
-  {
-    color: #ccc;
-  }
-
-  body.lights-out .write-preview-container
-  {
-    color: #333;
-  }
+body.lights-out .write-preview-container
+{
+  color: #333;
 }
