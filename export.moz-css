@@ -1,3 +1,4 @@
+@-moz-document domain("forums.eve-scout.com") {
 body.lights-out {
   color: #aaa;
   font-family:'Lato', sans-serif;
@@ -124,4 +125,5 @@ body.lights-out .table-bordered>thead>tr>th {
 }
 body.lights-out .table-bordered {
   border-color: #333;
+}
 }
